@@ -43,7 +43,8 @@ export default function Footer() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
-            className="text-xs text-muted-foreground mt-4 label-mono"
+            className="text-xs text-muted-foreground mt-4"
+            style={{ fontFamily: "IBM Plex Mono, monospace", textTransform: "uppercase", letterSpacing: "0.1em" }}
           >
             Crafted with precision and care
           </motion.p>

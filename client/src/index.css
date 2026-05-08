@@ -168,7 +168,9 @@
   /* Monospace for labels and metadata */
   .label-mono {
     font-family: "IBM Plex Mono", monospace;
-    @apply text-xs uppercase tracking-widest;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
   }
   
   button:not(:disabled),
@@ -258,11 +260,6 @@
   /* SQUARE Grid: 3 columns on desktop, 1 on mobile */
   .grid-square {
     @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
-  }
-  
-  /* Monospace label for section headers */
-  .label-section {
-    @apply label-mono text-muted-foreground mb-4;
   }
 }
 

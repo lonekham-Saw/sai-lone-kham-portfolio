@@ -52,7 +52,7 @@ export default function FeaturedWork() {
           viewport={{ once: true }}
           className="mb-12"
         >
-          <div className="label-section">
+          <div style={{fontFamily: "IBM Plex Mono, monospace", fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--muted-foreground)", marginBottom: "1rem"}} className="">
             <span className="text-accent">02 / FEATURED WORK</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold">

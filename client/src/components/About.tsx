@@ -27,7 +27,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <div className="label-section">
+            <div style={{fontFamily: "IBM Plex Mono, monospace", fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--muted-foreground)", marginBottom: "1rem"}} className="">
               <span className="text-accent">03 / ABOUT ME</span>
             </div>
 
@@ -83,7 +83,7 @@ export default function About() {
                 viewport={{ once: true }}
                 className="card-square p-6 border border-border"
               >
-                <div className="label-section mb-3">
+                <div style={{fontFamily: "IBM Plex Mono, monospace", fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--accent)", marginBottom: "0.75rem"}} className="">
                   <span className="text-accent">{String(index + 1).padStart(2, "0")}</span>
                 </div>
                 <p className="text-3xl font-bold text-foreground mb-2">{stat.value}</p>
@@ -103,7 +103,7 @@ export default function About() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <div className="label-section">
+          <div style={{fontFamily: "IBM Plex Mono, monospace", fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--muted-foreground)", marginBottom: "1rem"}} className="">
             <span className="text-accent">MY DESIGN APPROACH</span>
           </div>
 

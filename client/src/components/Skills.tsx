@@ -59,7 +59,7 @@ export default function Skills() {
           viewport={{ once: true }}
           className="mb-12"
         >
-          <div className="label-section">
+          <div style={{fontFamily: "IBM Plex Mono, monospace", fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--muted-foreground)", marginBottom: "1rem"}} className="">
             <span className="text-accent">04 / SKILLS & EXPERTISE</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold">
@@ -120,7 +120,7 @@ export default function Skills() {
           viewport={{ once: true }}
           className="mt-16 pt-12 border-t border-border"
         >
-          <div className="label-section">
+          <div style={{fontFamily: "IBM Plex Mono, monospace", fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--muted-foreground)", marginBottom: "1rem"}} className="">
             <span className="text-accent">PROFICIENCY LEVELS</span>
           </div>
 

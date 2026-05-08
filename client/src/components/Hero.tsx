@@ -46,7 +46,7 @@ export default function Hero() {
             className="order-1 md:order-2 flex flex-col gap-6"
           >
             {/* Label */}
-            <div className="label-section">
+            <div style={{fontFamily: "IBM Plex Mono, monospace", fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--muted-foreground)", marginBottom: "1rem"}} className="">
               <span className="text-accent">01 / WELCOME</span>
             </div>
 

@@ -48,7 +48,7 @@ export default function Contact() {
           className="max-w-2xl mx-auto text-center"
         >
           {/* Label */}
-          <div className="label-section justify-center flex mb-6">
+          <div style={{fontFamily: "IBM Plex Mono, monospace", fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--muted-foreground)", marginBottom: "1.5rem"}} className="flex justify-center">
             <span className="text-accent">05 / GET IN TOUCH</span>
           </div>
 
